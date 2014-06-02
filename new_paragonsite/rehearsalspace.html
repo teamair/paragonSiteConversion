@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Paragon Studios Inc.</title>
+        <link rel="stylesheet" href="css/externalCSS.css" type="text/css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	 <script type="text/javascript">
+	$(document).ready(function(){
+		$(function(){
+			$("#slideshow > div:gt(0)").hide();
+
+			setInterval(function() { 
+  			  $('#slideshow > div:first')
+   				 .fadeOut(2500)
+    			          .next()
+    				  .fadeIn(2500)
+   				 .end()
+				
+    				.appendTo('#slideshow');
+			},  5000);
+
+		});
+	});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#load_effect').fadeIn(500);
+		});
+	</script>
+    </head>
+
+     <body>
+	<div id="logo">
+		<img src='logo/logo.png' alt="logo"/>
+	</div>
+	<div id="navbarbackground"></div>
+	<div id="navbar">
+		
+		<ul>
+			<li><a href="index.html">HOME</a></li>	
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="services.html">SERVICES</a></li>
+			<li><a href="personnel.html">PERSONNEL</a></li>
+			<li><a href="clientlist.html">CLIENT LIST</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>	
+	</div>
+	<div id="servicebarbackground">
+	</div>
+	<div id="servicebar">
+		<ul>
+			<li><a href="recording.html" class="service">Recording &nbsp; |</a></li>	
+			<li><a href="mixing.html" class="mixing">Mixing &nbsp; |</a></li>
+			<li><a href="production.html" class="production">Production &nbsp; |</a></li>
+			<li><a href="rehearsalspace.html" class="rehearsal">Rehearsal Space &nbsp; |</a></li>
+			<li><a href="education.html" class="service">Education &nbsp; |</a></li>
+			<li><a href="multimedia.html" class="service">Multimedia</a></li>
+		</ul>
+		
+	</div>
+	<div id="numberinfo"> 
+		<img src='images/numb.gif' alt="312.942.0075"/>
+	</div>
+	<div id="information_background">
+	
+		
+	</div>
+	<div id="player">
+	</div> 
+	<div id="container">
+		<div id="slideshow"> <!--This div contains images for the slideshow-->
+		
+   			<div>
+     			<img src="images/bg1.jpg" alt="background image"/>
+   			</div>
+   			<div>
+     			<img src="images/bg3.jpg" alt="background image"/>
+   			</div>
+   			<div>
+     			<img src="images/bg4.jpg" alt="background image"/>
+   			</div>
+			<div> 
+			<img src="images/bg5.jpg" alt="background image"/>
+			</div>
+			<div> 
+			<img src="images/bg2.jpg" alt="background image"/>
+			</div>
+		</div>
+		<div id="content">
+		</div>
+			<div id="serviceshead">
+				<h1>Services</h1>
+			</div>
+			<div id="gearlist">
+				<h1>Gear:</h1>
+					<img class="gear" src='images/gear.gif' alt="equipment list"/>
+
+			</div>
+		<div id="load_effect">     <!--div hides content for page load effect script-->
+			<div class="text_container">
+			<div id="recordinghead">
+			<h1>Rehearsal Space:</h1>
+			</div>
+			<div id="recording">
+				
+<pre>
+Experience an exceptional practice environment. PA 
+with monitors, mic stands, and cables. Steinway grand
+piano, Hammond B3 organ.
+
+—Discount on recording rates
+
+—Affordable monthly packages
+
+—Freight Elevator for loading in and out of the building
+</pre>
+			</div>
+			</div>
+		</div>
+		
+	</div>
+	<div id="footer">
+		<span>Copyright &copy; 2012 Paragon Studios Inc.</span>
+	</div>
+    </body>
+</html>

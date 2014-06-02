@@ -1,0 +1,432 @@
+body{
+	width:958px;
+	height:760px;
+	margin: 5%;
+	background-color:#000;
+	background-repeat: no-repeat;
+	overflow: hidden;	
+
+}
+#load_effect{
+	display: none;
+
+}
+
+#slideshow { 
+
+    margin: 50px auto; 
+    position: relative; 
+    width: 958px; 
+    height: 760px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+
+
+
+#logo img{
+	position:absolute;
+	top: 37.5px;
+	left: 18.3px;
+	z-index:2;
+	}
+
+#navbarbackground {
+	width: 168.1px;
+	height: 262.6px;
+	background-color: #000;
+	opacity: .7;
+	position:absolute;
+	top: 37.5px;
+	left: 18.3px;
+	z-index: 1;
+	
+	}
+
+#navbar {
+	width: 168.1px;
+	height: 262.6px;
+	position:absolute;
+	top: 37.5px;
+	left: 18.3px;
+	z-index: 2;
+	}
+
+#navbar a{
+	position:relative;
+	top: 75px;
+	left: -30px;
+	font: 19px helvetica neue;
+	text-decoration: none;
+	display: block;
+	font-weight:100;
+	padding: 1px;
+	
+ 
+}
+
+	
+	a:link{ color:#ff7a17; }
+	a:visited{color:#ff7a17;}
+	a:hover{color:#ffb93a;}
+	a:active{color:#ffb93a;}
+	
+#servicebarbackground{
+		background-color: #5C5C5C;
+		width: 745px;
+		height: 47px;
+		opacity: .5;
+		Position: absolute;
+		top: 107.5px;
+		left: 230px;
+		z-index:2;		
+}
+
+#servicebar{
+		width: 800px;
+		height: 47px;
+		Position: absolute;
+		top: 107.5px;
+		left: 230px;
+		z-index: 2;}
+
+#servicebar ul{
+		list-style-type: none;
+		padding:1px 15px 1px 15px;
+		
+		
+}
+#servicebar a{
+		font: 15px helvetica neue;
+		font-weight: 100;
+		letter-spacing:1px;
+		float: left;
+		z-index:2;		
+}
+	a.service:link, a.service:visited{ 
+			color:#fff; 
+			display:block;
+		        text-decoration: none;
+			width:110px;
+			text-align: center;
+			text-transform: uppercase;}
+	a.service:hover, a.service:active{color:#fff;
+			display:block;
+			text-decoration: none;
+			}
+	a.mixing:link, a.mixing:visited{ 
+			color:#fff; 
+			display:block;
+		        text-decoration: none;
+			width:95px;
+			text-align: center;
+			text-transform: uppercase;}
+		
+	a.rehearsal:link, a.rehearsal:visited{ 
+			color:#fff; 
+			display:block;
+		        text-decoration: none;
+			width:180px;
+			text-align: center;
+			text-transform: uppercase;}
+
+	a.production:link, a.production:visited{ 
+			color:#fff; 
+			display:block;
+		        text-decoration: none;
+			width:118px;
+			text-align: center;
+			text-transform: uppercase;}
+
+
+#numberinfo{
+	position:absolute;
+	top: 323px;
+	left: 18.3px;
+	z-index:2;
+		}
+
+#information_background{
+	width: 168.1px;
+	height: 115px;
+	background-color: #000;
+	opacity:.7;
+	
+	position:absolute;
+	top: 323px;
+	left: 18.3px;
+	}
+
+
+#information p{
+	color:white;
+}
+
+#jp_container_1{
+
+	position: absolute;
+	top: 500px;
+	left: 18.3px;
+	z-index: 2;
+	
+}
+
+#content{
+	width: 825px;
+	height: 635px;
+	background-color: #000;
+	opacity: .5;
+	position:absolute;
+	top: 37.5px;
+	left: 210px;
+	}
+table{
+	width: 826.8px;
+	height: 635px;
+	font: 12px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Padding: 35px;
+	Position:absolute;
+	top: 65px;
+	left:220px;
+	z-index: 2;
+}
+#tableheading {
+	
+	width: 726.8px;
+	height: 635px;
+	font: 25px helvetica neue;
+	color: #ff7a17;
+	font-weight: 100;
+	letter-spacing: 1px;
+	z-index: 2;
+	
+	
+}
+
+
+
+#text pre{
+
+	width: 726.8px;
+	height: 635px;
+	font: 18px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 90px;
+	left:250px;
+	z-index: 2;
+}
+
+#text pre{
+
+	width: 726.8px;
+	height: 635px;
+	font: 18px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 90px;
+	left:250px;
+	z-index: 2;
+}
+
+#recordinghead h1{
+		position:absolute;
+		top: 150px;
+		left: 551px;
+		
+			}
+#recording pre{
+	width: 726.8px;
+	height: 635px;
+	font: 14px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height:18px;
+	Position:absolute;
+	top: 180px;
+	left:551px;
+	z-index: 2;
+}
+
+img.gear{
+	Position:absolute;
+	top: 190px;
+	left:230px;
+	z-index: 2;
+}
+#gearlist h1{
+	position:absolute;
+	top:150px;
+	left:250px;
+		}
+
+ ul.personnel{
+	width: 726.8px;
+	height: 635px;
+	font: 18px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 90px;
+	left:240px;
+	z-index: 2;
+	list-style-type: none;
+
+}
+
+
+
+
+#contactinfo pre{
+
+	font: 15px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 100px;
+	left:250px;
+	z-index: 2;
+
+}
+
+#moreinfo span{
+
+	font: 13px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 165px;
+	left:250px;
+	z-index: 2;
+}
+
+#moreinfo pre{
+
+	font: 16px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 140px;
+	left:250px;
+	z-index: 2;
+}
+
+#phone pre{
+	font: 13px helvetica neue;
+	color: #ff7a17;
+	font-weight: 100;
+	line-height:17px;
+	Position:absolute;
+	top: 137px;
+	left:277px;
+	z-index: 2;
+		
+}
+
+#formcontainer{
+	width: 100px;
+	position:absolute;
+	top: 220px;
+	left: 250px;
+	z-index: 2;
+	line-height: 2px;
+	}
+
+#formcontainer p{
+	Font: 17px helvetica neue;
+	font-weight: 100;
+	color: white;
+	letter-spacing: 1px;
+	}
+
+#formcontainer pre{
+	Font: px helvetica neue;
+	font-weight: 100;
+	color: white;
+	}
+
+#formcontainer label{
+	font: 15px helvetica neue;
+	color: #B0B0B0;
+	font-weight: 100;
+	letter-spacing: 1px;
+	
+		
+	}
+
+ h1{
+	
+
+	font: 25px helvetica neue;
+	color: #ff7a17;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 37.5px;
+	left:230px;
+	z-index: 2;
+		
+	}
+h2{
+	
+	font: 15px helvetica neue;
+	color: white;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 69px;
+	left: 240px;
+	z-index: 2;
+	
+	}
+
+h3{
+
+	font: 13px helvetica neue;
+	color: white;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 67px;
+	left: 240px;
+	z-index: 2;
+	
+	}
+
+h4{
+	
+	font: 13px helvetica neue;
+	color: white;
+	font-weight: 100;
+	letter-spacing: 1px;
+	Position:absolute;
+	top: 10px;
+	left: 240px;
+	z-index: 2;
+}
+	
+
+
+#footer{
+	
+	font: 10px helvetica neue;
+	color: #505050;
+	font-weight: 100;
+	letter-spacing: 1px;
+	position:absolute;
+	top: 765px;
+	left: 109px;
+	z-index:2;
+	}

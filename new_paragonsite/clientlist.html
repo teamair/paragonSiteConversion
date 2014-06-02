@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Paragon Studios Inc.</title>
+        <link rel="stylesheet" href="css/externalCSS.css" type="text/css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(function(){
+			$("#slideshow > div:gt(0)").hide();
+
+			setInterval(function() { 
+  			  $('#slideshow > div:first')
+   				 .fadeOut(2500)
+    			          .next()
+    				  .fadeIn(2500)
+   				 .end()
+				
+    				.appendTo('#slideshow');
+			},  5000);
+
+		});
+	});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#load_effect').fadeIn(500);
+		});
+	</script>
+	
+    </head>
+	
+     <body>
+	<div id="logo">
+		<img src='logo/logo.png' alt="logo"/>
+	</div>
+	<div id="navbarbackground"></div>
+	<div id="navbar">
+		
+		<ul>
+			<li><a href="index.html">HOME</a></li>	
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="services.html">SERVICES</a></li>		
+			<li><a href="personnel.html">PERSONNEL</a></li>
+			<li><a href="clientlist.html">CLIENT LIST</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>	
+	</div>
+	<div id="numberinfo"> 
+		<img src='images/numb.gif' alt="312.942.0075"/>
+	</div>
+	<div id="information_background">
+	</div>
+	<div id="player">
+	</div> 
+	<div id="container">
+		<div id="slideshow"> <!--This div contains images for the slideshow-->
+		
+   			<div>
+     			<img src="images/bg1.jpg" alt="img"/>
+   			</div>
+   			<div>
+     			<img src="images/bg3.jpg" alt="img"/>
+   			</div>
+   			<div>
+     			<img src="images/bg4.jpg" alt="img"/>
+   			</div>
+			<div> 
+			<img src="images/bg5.jpg" alt="img"/>
+			</div>
+			<div> 
+			<img src="images/bg2.jpg" alt="img"/>
+			</div>
+		</div>
+	</div>
+		<div id="load_effect">     <!--div hides content for page load effect script-->
+		<div id="content"></div>
+			<div id="tableheading">
+			<h1>Client List</h1>
+			<h3>(Past Clients)</h3>				
+			</div>
+			
+			<div>
+		
+			<table>
+			<col span="20"/>
+			<tr>
+			<td>The Convulsions</td><td>Chris Long</td><td>American English</td><td>Sam Cockrell &amp; The Groove</td>
+			</tr>
+			<tr>
+			<td>Chicago Rose</td><td>Kaos Rising</td><td>Chicago Childrens Choir</td><td>Groove</td>
+			</tr>
+			<tr>
+			<td>Khari</td><td>The Cryin' Shames</td><td>Rev. Dippermouth</td><td>Hannah Frank</td>
+			</tr>
+			<tr>
+			<td>Distrito 14</td><td>Robin Watson</td><td>George Paulus</td><td>The Elvis Brothers</td>
+			</tr>
+			<tr>
+			<td>Meliflous</td><td>Hayden Thompson</td><td>The Pop Show</td><td>Deacon John Khio</td>
+			</tr>
+			<tr>
+			<td>Warren Storm</td><td>Tommy Ford</td><td>C-N-E</td><td>Black Cat Crossing</td>
+			</tr>
+			<tr>
+			<td>Talib Kweli</td><td>Tay Jasper</td><td>Arjun</td><td>Uniform</td>
+			</tr>
+			<tr>
+			<td>72 Hours</td><td>Simones Bar &amp; Grill</td><td>The Loop</td><td>Lexi Scherr</td>
+			</tr>
+			<tr>
+			<td>Devil Dogs</td><td>Billy Branch</td><td>Johnny Dangerous</td><td>Daniel Stoermer</td>
+			</tr>
+			<tr>
+			<td>Carlos Johnson</td><td>Ill Niggaz</td><td>The Gypsy Squatter Band</td><td>Count Bop</td>
+			</tr>
+			<tr>
+			<td>Rev. Terry House</td><td>Mick Diggles</td><td>Mavis Staples</td><td>Larry Benedetto</td>
+			</tr>
+			<tr>
+			<td>Hallelujah Chamber Ensemble</td><td>Rob Orlemans &amp; Half</td><td>Dan Patrevito</td><td>Burrel Family</td>
+			</tr>
+			<tr>
+			<td>Mavis Staples</td><td>Larry Benedetto</td><td>Past Midnight</td>
+			</tr>
+			<tr>
+			<td>KaySandra Hunt</td><td>T &amp; the Wonder</td> <td>Merl Saunders</td><td>Tarsus</td>
+			</tr>
+			<tr>
+			<td>Dale Hawkins</td><td>Dietra Farr</td><td>Microsoft</td><td>Junior Wells</td>
+			</tr>
+			<tr>
+			<td>The Flint Cavaliers</td><td>Beats by the Greeks</td><td>Seven Day Run</td>
+			</tr>
+			<tr>
+			<td>Asses de Terra Callente</td><td>Uncle Webb</td><td>Crazy Rockwell</td><td>Red Seven</td>
+			</tr>
+			<tr>
+			<td>Los Franco</td><td>John Collier Band</td><td>Khaos Theory</td><td>Zzaje</td>
+			</tr>
+			<tr>
+			<td>Sam Cochrell</td><td>Tey Punsalan</td><td>Ryan Lacey</td><td>Eric Michaels</td>
+			</tr>
+			<tr>
+			<td>Erin Gipson</td><td>Thunderwing</td><td>Zeus Fuze</td><td>Michael Blum</td>
+			</tr>
+			<tr>
+			<td>Mike Roman</td><td>Danny Draher</td><td>Jab</td><td>Entrinzic</td>
+			</tr>
+			<tr>
+			<td>Born Against TIme</td><td>David Hull</td><td>Ryan Hatch</td>
+			</tr>
+			</table>
+			
+		</div>
+		</div>
+
+	<div id="footer">
+		<span>Copyright &copy; 2012 Paragon Studios Inc.</span>
+	</div>
+    </body>
+</html>

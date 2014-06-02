@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <title>Paragon Studios Inc.</title>
+        <link rel="stylesheet" href="css/externalCSS.css" type="text/css"/>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"/>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(function(){
+			$("#slideshow > div:gt(0)").hide();
+
+			setInterval(function() { 
+  			  $('#slideshow > div:first')
+   				 .fadeOut(2500)
+    			          .next()
+    				  .fadeIn(2500)
+   				 .end()
+				
+    				.appendTo('#slideshow');
+			},  5000);
+
+		});
+	});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#load_effect').fadeIn(500);
+		});
+	</script>
+	
+    </head>	
+     <body>
+	
+	<div id="logo">
+		<img src='logo/logo.png' alt="logo"/>
+	</div>
+	<div id="navbarbackground"></div>
+	<div id="navbar">
+		
+		<ul>
+			<li><a href="index.html">HOME</a></li>	
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="services.html">SERVICES</a></li>		
+			<li><a href="personnel.html">PERSONNEL</a></li>
+			<li><a href="clientlist.html">CLIENT LIST</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>	
+	</div>
+	<div id="numberinfo"> 
+		<img src='images/numb.gif' alt="312.942.0075"/>
+	</div>
+	<div id="information_background">
+	</div>
+	<div id="player">
+	</div> 
+	<div id="container">
+		<div id="slideshow"> <!--This div contains images for the slideshow-->
+		
+   			<div>
+     			<img src="images/bg1.jpg" alt="background image"/>
+   			</div>
+   			<div>
+     			<img src="images/bg3.jpg" alt="background image"/>
+   			</div>
+   			<div>
+     			<img src="images/bg4.jpg" alt="background image"/>
+   			</div>
+			<div> 
+			<img src="images/bg5.jpg" alt="background image"/>
+			</div>
+			<div> 
+			<img src="images/bg2.jpg" alt="background image"/>
+			</div>
+		</div>
+
+		<div id="load_effect">     <!--div hides content for page load effect script-->
+		<div id="content"></div>
+			
+			<div id="contacthead">
+				
+						<h1>Contact</h1>
+						<h2>Paragon Studios Inc.</h2>
+					<div id="contactinfo">
+				<pre>820 W Fulton Market
+Chicago, Il 60607
+Phone:
+Fax:
+Email:
+					</pre></div>
+						<div id="moreinfo">
+			 				<div id="phone"><pre>     312.942.0075
+ 312.942.2488
+   Info@paragonstudiosinc.com
+							</pre></div>		
+						</div>	
+
+					</div>
+			<div id="formcontainer">
+				<form name="contactform" method="post" action="send_form_email.php">
+					<p>Join our emailing list!</p>
+<label for="first_name">First Name</label>
+<input  type="text" name="first_name" maxlength="50" size="30"/>
+<label for="last_name">Last Name</label>
+<input  type="text" name="last_name" maxlength="50" size="30"/>
+<label for="email">Email Address</label>
+<input  type="text" name="email" maxlength="80" size="30"/>
+<input type="submit" value="Submit"/> 
+				
+				</form>
+			</div>
+		</div>
+		</div>
+
+	<div id="footer">
+		<span>Copyright &copy; 2012 Paragon Studios Inc.</span>
+	</div>
+    </body>
+</html>
