@@ -1,0 +1,11 @@
+<songs>
+
+ <song title="Rhombus - Two Five Tom" img_path="img/img4.jpg" path="mp3/TwoFiveTom.mp3"/>
+ <song title="Roadless - Out Of Your Prime" img_path="img/img4.jpg" path="mp3/TheRoadless.mp3"/>
+ <song title="Matt Ulery - Spare Parts" img_path="img/img4.jpg" path="mp3/SpareParts.mp3"/>
+ <song title="72 Hours - Hard For" img_path="img/img1.jpg" path="mp3/72Hours.mp3"/>
+ <song title="Los Franco - Naris Blindada" img_path="img/img4.jpg" path="mp3/LosFranco.mp3"/>
+ <song title="Hannah Frank - Heaven" img_path="img/img2.jpg" path="mp3/Heaven.mp3"/>
+ <song title="Johnny Dangerous - Dirty" img_path="img/img3.jpg" path="mp3/JohnnyD.mp3"/>
+
+</songs>
